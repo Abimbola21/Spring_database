@@ -8,6 +8,8 @@ import java.util.List;
 
 public interface CustomerRepository extends CrudRepository<Customer,Integer>{
 
-List<Customer> findByLastname(String lastName);
+    //new method to find customer by their lastname
+    //it returns a list
+  List<Customer> findByLastname(String lastName);
 
 }

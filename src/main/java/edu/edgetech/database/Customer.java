@@ -14,7 +14,7 @@ public class Customer {
     private String firstname;
     private String lastname;
 
-
+//getters and setters
     public Integer getId() {
         return id;
     }
@@ -39,16 +39,18 @@ public class Customer {
         this.lastname = lastname;
     }
 
-
+   //constructor
     public Customer(String firstname, String lastname) {
         this.firstname = firstname;
         this.lastname = lastname;
     }
 
+    //no parameter constructor
     public Customer() {
 
     }
 
+    //toString method
     @Override
     public String toString() {
         return "Customer{" +
